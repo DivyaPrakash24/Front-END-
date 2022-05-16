@@ -1,0 +1,18 @@
+td {
+    border: 1px solid;
+    padding: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    color:rgb(2, 2, 2);
+    background-color:#fdfdfd ;
+    border-collapse: collapse;
+}
+
+th {
+    color: black;
+    background-color: rgb(255, 109, 109);
+    border: 1px solid;
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+  } 
+  
+  body { 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    align-content: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 16px;
+    background-color: white;
+    justify-content: center;
+  }
+  
+  .label {
+    text-align: center;
+    color: black;
+  }
+
+
+
+
+  input[type=text] , input[type=tel] , input[type=number]  {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: #f1f1f1;
+  }
+  
+  input[type=text]:focus,
+  input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  .registerbtn {
+    background-color:#e10e0e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    text-align: center;
+    margin: 4px 2px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 1.0;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  .table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .thead {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .tr {
+    border: none;
+    padding: 20px;
+    text-align: left;
+    background-color: #d0bf52;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  
+  .search {
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .listItem {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #444;
+    font-weight: 300;
+  }
